@@ -75,8 +75,8 @@
                             transition: background-color rgba(0, 0, 0, 0.1);
                           }
                           .card {
-                            border-radius: 15px;
-                            border: 2px solid black;
+                            border-radius: 20px;
+                            
                             overflow: hidden;
                             transition: background-color 0.3s ease-in-out;
                           }
@@ -96,7 +96,7 @@
                             color: #fff; /* Change this to the desired link color */
                           }
 
-                          @media (min-width: 992px){
+                          @media (min-width: 660px){
                     .me-lg-8 {
                         margin-right: -10rem !important;
                         margin-top: -10rem !important;
@@ -105,6 +105,7 @@
                     .hero-text{
                         font-size: 70px;
                     }
+                  }
     </style>
   </head>
 
@@ -122,7 +123,7 @@
             </div>
             <div
               class="navbar-collapse offcanvas offcanvas-nav"
-              style="margin-right: 20%;"
+              style="margin-right: 40%;"
             >
               <div class="offcanvas-header d-lg-none">
                 <h3 class="text-white fs-30 mb-0">KalPay</h3>
@@ -186,13 +187,14 @@
               <!-- /.offcanvas-body -->
             </div>
             <!-- /.navbar-collapse -->
-            <div class="navbar-other ms-lg-4">
+            <div class="navbar-other ms-lg-4" >
               <ul class="navbar-nav flex-row align-items-center ms-auto">
-                <li class="nav-item d-none d-md-block">
+                <li class="nav-item d-none d-md-block " style="display:block;">
                   <a
                     href="contact.html"
                     class="btn btn-sm btn-primary rounded"
-                    style="background-color: #20282b;"
+                    style="background-color: #20282b;
+                    display:none;"
                     >Contact Us</a
                   >
                 </li>
@@ -233,7 +235,7 @@
               data-delay="600"
             >
               <h1 class="display-1 mb-5 hero-text" style="margin-top: 10%;">
-                Khareedo Ajj,<span style="color: #bc263a;">Payment</span>
+                Khareedo Aaj, <span style="color: #bc263a;">Payment</span>
                 <span style="color: #bc263a;"> KalPay!</span>
               </h1>
               <p
@@ -323,9 +325,90 @@
       <!-- /section -->
       <!-- /section -->
       <!-- /section -->
+      <div class="container">
+          <!-- /.row -->
+        <div class="grid grid-view projects-masonry" style="padding: 10%;">
+          <div class="row gx-md-8 isotope">
+            <div class="project item col-md-6 col-xl-6 product">
+              <figure class="lift rounded mb-6">
+                <img src="used/p1.png" alt="" class="background-color:#FEFEFE;"/>
+              </figure>
+              
+            </div>
 
+            <!-- /.project -->
+            <div class="project item col-md-6 col-xl-6 product">
+              <figure class="lift rounded mb-6">
+                <img src="used/p2.png" alt="" class="background-color:#FEFEFE;" />
+              </figure>
+              
+            </div>
+            <!-- /.project -->
+
+            <!-- /.project -->
+            <div
+              class="item col-md-6 col-xl-6"
+              style="top: 350px !important;"
+            >
+              <figure class="lift rounded mb-6">
+                <img src="used/p3.png" class="background-color:#FEFEFE;" alt="" />
+              </figure>
+              
+            </div>
+            <!-- /.project -->
+
+            <!-- /.project -->
+
+            <!-- /.project -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.grid -->
+      </div>
+      <section class="wrapper wrapper-border">
+        <div class="container py-14 py-md-16">
+          <h2 class="text-uppercase text-center mb-8">
+            Our Partners
+          </h2>
+          <div
+            class="swiper-container clients mb-0"
+            data-margin="30"
+            data-dots="false"
+            data-autoplay-timeout="3000"
+            data-items-xxl="4"
+            data-items-xl="4"
+            data-items-lg="4"
+            data-items-md="4"
+            data-items-xs="2"
+          >
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide px-5">
+                  <img src="./used/l1.png" alt="" />
+                </div>
+                <div class="swiper-slide px-5">
+                  <img src="./used/l2.png" alt="" />
+                </div>
+                <div class="swiper-slide px-5">
+                  <img src="./used/l3.png" alt="" />
+                </div>
+                <div class="swiper-slide px-5">
+                  <img src="./used/l4.png" alt="" />
+                </div>
+                
+              </div>
+              <!--/.swiper-wrapper -->
+            </div>
+            <!-- /.swiper -->
+          </div>
+          <!-- /.swiper-container -->
+        </div>
+        <!-- /.container -->
+
+        
+      </section>
       <!-- /section -->
-      <section class="wrapper">
+      <section class="wrapper" style="background-image: url(used/half.png);background-repeat: no-repeat;">
         <div class="container py-14 py-md-16 text-center">
           <div class="row">
             <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
@@ -362,7 +445,7 @@
                 <div class="card shadow-lg">
                   <div class="card-body">
                     <img
-                      src="used/Icon2.png"
+                      src="used/Icon.png"
                       style="width: 40%; height: 10%;"
                     />
                     <h4>Shariah Aligned</h4>
@@ -381,7 +464,7 @@
                 <div class="card shadow-lg">
                   <div class="card-body">
                     <img
-                      src="used/icon3.png"
+                      src="used/icona.png"
                       style="width: 40%; height: 10%;"
                       alt=""
                     />
@@ -440,121 +523,12 @@
       </section>
       <!-- /section -->
 
-      <section class="wrapper wrapper-border">
-        <div class="container py-14 py-md-16">
-          <h2 class="text-uppercase text-center mb-8">
-            Our Partners
-          </h2>
-          <div
-            class="swiper-container clients mb-0"
-            data-margin="30"
-            data-dots="false"
-            data-autoplay-timeout="3000"
-            data-items-xxl="7"
-            data-items-xl="6"
-            data-items-lg="5"
-            data-items-md="4"
-            data-items-xs="2"
-          >
-            <div class="swiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide px-5">
-                  <img src="./assets/img/brands/c1.png" alt="" />
-                </div>
-                <div class="swiper-slide px-5">
-                  <img src="./assets/img/brands/c2.png" alt="" />
-                </div>
-                <div class="swiper-slide px-5">
-                  <img src="./assets/img/brands/c3.png" alt="" />
-                </div>
-                <div class="swiper-slide px-5">
-                  <img src="./assets/img/brands/c4.png" alt="" />
-                </div>
-                <div class="swiper-slide px-5">
-                  <img src="./assets/img/brands/c5.png" alt="" />
-                </div>
-                <div class="swiper-slide px-5">
-                  <img src="./assets/img/brands/c6.png" alt="" />
-                </div>
-                <div class="swiper-slide px-5">
-                  <img src="./assets/img/brands/c7.png" alt="" />
-                </div>
-                <div class="swiper-slide px-5">
-                  <img src="./assets/img/brands/c8.png" alt="" />
-                </div>
-                <div class="swiper-slide px-5">
-                  <img src="./assets/img/brands/c9.png" alt="" />
-                </div>
-                <div class="swiper-slide px-5">
-                  <img src="./assets/img/brands/c10.png" alt="" />
-                </div>
-                <div class="swiper-slide px-5">
-                  <img src="./assets/img/brands/c11.png" alt="" />
-                </div>
-              </div>
-              <!--/.swiper-wrapper -->
-            </div>
-            <!-- /.swiper -->
-          </div>
-          <!-- /.swiper-container -->
-        </div>
-        <!-- /.container -->
-
-        <div class="container">
-          <!-- /.row -->
-          <div class="grid grid-view projects-masonry" style="padding: 10%;">
-            <div class="row gx-md-8 isotope">
-              <div class="project item col-md-6 col-xl-6 product">
-                <figure class="lift rounded mb-6">
-                  <img src="used/p1.png" alt="" />
-                </figure>
-                <a href="#" class="learn-more-link">
-                  Get Started
-                  <i class="fa-solid fa-arrow-right"></i>
-                </a>
-              </div>
-
-              <!-- /.project -->
-              <div class="project item col-md-6 col-xl-6 product">
-                <figure class="lift rounded mb-6">
-                  <img src="used/p2.jpg" alt="" />
-                </figure>
-                <a href="#" class="learn-more-link" style="color: black;">
-                  Get Started
-                  <i class="fa-solid fa-arrow-right" style="color: black;"></i>
-                </a>
-              </div>
-              <!-- /.project -->
-
-              <!-- /.project -->
-              <div
-                class="item col-md-6 col-xl-6"
-                style="top: 350px !important;"
-              >
-                <figure class="lift rounded mb-6">
-                  <img src="used/p3.png" alt="" />
-                </figure>
-                <a href="#" class="learn-more-link" style="color: black;">
-                  Get Started
-                  <i class="fa-solid fa-arrow-right" style="color: black;"></i>
-                </a>
-              </div>
-              <!-- /.project -->
-
-              <!-- /.project -->
-
-              <!-- /.project -->
-            </div>
-            <!-- /.row -->
-          </div>
-          <!-- /.grid -->
-        </div>
-      </section>
+      
       <!-- /section -->
 
       <!-- /section -->
       <!-- /section -->
-      <section class="wrapper bg-soft">
+      <section class="wrapper bg-soft" style="background-image: linear-gradient(#f2f2f2 70%, white 30%);">
         <div class="container py-14 py-md-16">
           <h2 class="text-uppercase text-center mb-8">
             Featured in
@@ -564,47 +538,27 @@
             data-margin="30"
             data-dots="false"
             data-autoplay-timeout="3000"
-            data-items-xxl="7"
-            data-items-xl="6"
-            data-items-lg="5"
+            data-items-xxl="4"
+            data-items-xl="4"
+            data-items-lg="4"
             data-items-md="4"
             data-items-xs="2"
           >
             <div class="swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide px-5">
-                  <img src="./assets/img/brands/c1.png" alt="" />
+                  <img src="./used/l1.png" alt="" />
                 </div>
                 <div class="swiper-slide px-5">
-                  <img src="./assets/img/brands/c2.png" alt="" />
+                  <img src="./used/l2.png" alt="" />
                 </div>
                 <div class="swiper-slide px-5">
-                  <img src="./assets/img/brands/c3.png" alt="" />
+                  <img src="./used/l3.png" alt="" />
                 </div>
                 <div class="swiper-slide px-5">
-                  <img src="./assets/img/brands/c4.png" alt="" />
+                  <img src="./used/l4.png" alt="" />
                 </div>
-                <div class="swiper-slide px-5">
-                  <img src="./assets/img/brands/c5.png" alt="" />
-                </div>
-                <div class="swiper-slide px-5">
-                  <img src="./assets/img/brands/c6.png" alt="" />
-                </div>
-                <div class="swiper-slide px-5">
-                  <img src="./assets/img/brands/c7.png" alt="" />
-                </div>
-                <div class="swiper-slide px-5">
-                  <img src="./assets/img/brands/c8.png" alt="" />
-                </div>
-                <div class="swiper-slide px-5">
-                  <img src="./assets/img/brands/c9.png" alt="" />
-                </div>
-                <div class="swiper-slide px-5">
-                  <img src="./assets/img/brands/c10.png" alt="" />
-                </div>
-                <div class="swiper-slide px-5">
-                  <img src="./assets/img/brands/c11.png" alt="" />
-                </div>
+                
               </div>
               <!--/.swiper-wrapper -->
             </div>
@@ -616,8 +570,8 @@
           <div class="row">
             <div class="col-xl-12 mx-auto">
               <div
-                class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-400"
-                data-image-src="used/calltoaction.jpg"
+                class="card image-wrapper bg-full bg-image "
+                data-image-src="used/cta.png"
               >
                 <div
                   class="card-body p-6 p-md-11 flex-row align-items-lg-center justify-content-md-right text-center"
@@ -641,7 +595,7 @@
                     href="#"
                     class="btn btn-white rounded-pill mb-0 text-nowrap"
                     style="color: black;"
-                    >Join Us</a
+                    >Get in Touch</a
                   >
                 </div>
                 <!--/.card-body -->
@@ -655,23 +609,19 @@
         <!-- /.container -->
       </section>
       <!-- /section -->
-      <section class="wrapper bg-soft">
+      <section class="wrapper bg-soft" >
         <div class="container py-14 py-md-16">
           <div class="row">
             <div class="col-lg-9 col-xl-8 col-xxl-7 mx-auto">
-              <h2 class="fs-15 text-uppercase text-primary text-center">
+              <h1 class="text-center justify-content-center mb-5 hero-text">
                 Popular News
-              </h2>
+              </h1>
             </div>
             <!-- /column -->
           </div>
           <!-- /.row -->
           <div class="position-relative">
-            <div
-              class="shape bg-dot primary rellax w-17 h-20"
-              data-rellax-speed="1"
-              style="top: 0; left: -1.7rem;"
-            ></div>
+            
             <div
               class="swiper-container dots-closer blog grid-view mb-6"
               data-margin="0"
@@ -690,7 +640,7 @@
                             class="card-img-top overlay overlay-1 hover-scale"
                           >
                             <a href="#">
-                              <img src="./assets/img/photos/b4.jpg" alt=""
+                              <img src="./used/image6.png" style="border-radius: 20px;" alt=""
                             /></a>
                             <figcaption>
                               <h5 class="from-top mb-0">Read More</h5>
@@ -698,46 +648,33 @@
                           </figure>
                           <div class="card-body">
                             <div class="post-header">
-                              <div class="post-category text-line">
-                                <a href="#" class="hover" rel="category"
-                                  >Coding</a
-                                >
-                              </div>
+                              
                               <!-- /.post-category -->
                               <h2 class="post-title h3 mt-1 mb-3">
                                 <a class="link-dark" href="./blog-post.html"
-                                  >Ligula tristique quis risus</a
+                                  >Digital Payment will be top Payment in Next 10 Years</a
                                 >
                               </h2>
                             </div>
                             <!-- /.post-header -->
                             <div class="post-content">
+                              <p>14 Feb - Technology </p>
                               <p>
                                 Mauris convallis non ligula non interdum.
                                 Gravida vulputate convallis tempus vestibulum
                                 cras imperdiet nun eu dolor.
                               </p>
                             </div>
+                            <div class="post-category ">
+                              <a href="#" class="hover" 
+                                >Explore More ></a
+                              >
+                            </div>
                             <!-- /.post-content -->
                           </div>
+                          
                           <!--/.card-body -->
-                          <div class="card-footer">
-                            <ul class="post-meta d-flex mb-0">
-                              <li class="post-date">
-                                <i class="uil uil-calendar-alt"></i
-                                ><span>14 Apr 2022</span>
-                              </li>
-                              <li class="post-comments">
-                                <a href="#"><i class="uil uil-comment"></i>4</a>
-                              </li>
-                              <li class="post-likes ms-auto">
-                                <a href="#"
-                                  ><i class="uil uil-heart-alt"></i>5</a
-                                >
-                              </li>
-                            </ul>
-                            <!-- /.post-meta -->
-                          </div>
+                         
                           <!-- /.card-footer -->
                         </div>
                         <!-- /.card -->
@@ -755,7 +692,7 @@
                             class="card-img-top overlay overlay-1 hover-scale"
                           >
                             <a href="#">
-                              <img src="./assets/img/photos/b5.jpg" alt=""
+                              <img src="./used/image7.png" style="border-radius: 20px;" alt=""
                             /></a>
                             <figcaption>
                               <h5 class="from-top mb-0">Read More</h5>
@@ -763,46 +700,33 @@
                           </figure>
                           <div class="card-body">
                             <div class="post-header">
-                              <div class="post-category text-line">
-                                <a href="#" class="hover" rel="category"
-                                  >Workspace</a
-                                >
-                              </div>
+                              
                               <!-- /.post-category -->
                               <h2 class="post-title h3 mt-1 mb-3">
                                 <a class="link-dark" href="./blog-post.html"
-                                  >Nullam id dolor elit id nibh</a
+                                  >Digital Payment will be top Payment in Next 10 Years</a
                                 >
                               </h2>
                             </div>
                             <!-- /.post-header -->
                             <div class="post-content">
+                              <p>14 Feb - Technology </p>
                               <p>
                                 Mauris convallis non ligula non interdum.
                                 Gravida vulputate convallis tempus vestibulum
                                 cras imperdiet nun eu dolor.
                               </p>
                             </div>
+                            <div class="post-category ">
+                              <a href="#" class="hover" 
+                                >Explore More ></a
+                              >
+                            </div>
                             <!-- /.post-content -->
                           </div>
+                          
                           <!--/.card-body -->
-                          <div class="card-footer">
-                            <ul class="post-meta d-flex mb-0">
-                              <li class="post-date">
-                                <i class="uil uil-calendar-alt"></i
-                                ><span>29 Mar 2022</span>
-                              </li>
-                              <li class="post-comments">
-                                <a href="#"><i class="uil uil-comment"></i>3</a>
-                              </li>
-                              <li class="post-likes ms-auto">
-                                <a href="#"
-                                  ><i class="uil uil-heart-alt"></i>3</a
-                                >
-                              </li>
-                            </ul>
-                            <!-- /.post-meta -->
-                          </div>
+                         
                           <!-- /.card-footer -->
                         </div>
                         <!-- /.card -->
@@ -820,7 +744,7 @@
                             class="card-img-top overlay overlay-1 hover-scale"
                           >
                             <a href="#">
-                              <img src="./assets/img/photos/b6.jpg" alt=""
+                              <img src="./used/image8.png" style="border-radius: 20px;" alt=""
                             /></a>
                             <figcaption>
                               <h5 class="from-top mb-0">Read More</h5>
@@ -828,46 +752,33 @@
                           </figure>
                           <div class="card-body">
                             <div class="post-header">
-                              <div class="post-category text-line">
-                                <a href="#" class="hover" rel="category"
-                                  >Meeting</a
-                                >
-                              </div>
+                              
                               <!-- /.post-category -->
                               <h2 class="post-title h3 mt-1 mb-3">
                                 <a class="link-dark" href="./blog-post.html"
-                                  >Ultricies fusce porta elit</a
+                                  >Digital Payment will be top Payment in Next 10 Years</a
                                 >
                               </h2>
                             </div>
                             <!-- /.post-header -->
                             <div class="post-content">
+                              <p>14 Feb - Technology </p>
                               <p>
                                 Mauris convallis non ligula non interdum.
                                 Gravida vulputate convallis tempus vestibulum
                                 cras imperdiet nun eu dolor.
                               </p>
                             </div>
+                            <div class="post-category ">
+                              <a href="#" class="hover" 
+                                >Explore More ></a
+                              >
+                            </div>
                             <!-- /.post-content -->
                           </div>
+                          
                           <!--/.card-body -->
-                          <div class="card-footer">
-                            <ul class="post-meta d-flex mb-0">
-                              <li class="post-date">
-                                <i class="uil uil-calendar-alt"></i
-                                ><span>26 Feb 2022</span>
-                              </li>
-                              <li class="post-comments">
-                                <a href="#"><i class="uil uil-comment"></i>6</a>
-                              </li>
-                              <li class="post-likes ms-auto">
-                                <a href="#"
-                                  ><i class="uil uil-heart-alt"></i>3</a
-                                >
-                              </li>
-                            </ul>
-                            <!-- /.post-meta -->
-                          </div>
+                         
                           <!-- /.card-footer -->
                         </div>
                         <!-- /.card -->
@@ -877,70 +788,7 @@
                     <!-- /.item-inner -->
                   </div>
                   <!--/.swiper-slide -->
-                  <div class="swiper-slide">
-                    <div class="item-inner">
-                      <article>
-                        <div class="card">
-                          <figure
-                            class="card-img-top overlay overlay-1 hover-scale"
-                          >
-                            <a href="#">
-                              <img src="./assets/img/photos/b7.jpg" alt=""
-                            /></a>
-                            <figcaption>
-                              <h5 class="from-top mb-0">Read More</h5>
-                            </figcaption>
-                          </figure>
-                          <div class="card-body">
-                            <div class="post-header">
-                              <div class="post-category text-line">
-                                <a href="#" class="hover" rel="category"
-                                  >Business Tips</a
-                                >
-                              </div>
-                              <!-- /.post-category -->
-                              <h2 class="post-title h3 mt-1 mb-3">
-                                <a class="link-dark" href="./blog-post.html"
-                                  >Morbi leo risus porta eget</a
-                                >
-                              </h2>
-                            </div>
-                            <!-- /.post-header -->
-                            <div class="post-content">
-                              <p>
-                                Mauris convallis non ligula non interdum.
-                                Gravida vulputate convallis tempus vestibulum
-                                cras imperdiet nun eu dolor.
-                              </p>
-                            </div>
-                            <!-- /.post-content -->
-                          </div>
-                          <!--/.card-body -->
-                          <div class="card-footer">
-                            <ul class="post-meta d-flex mb-0">
-                              <li class="post-date">
-                                <i class="uil uil-calendar-alt"></i
-                                ><span>7 Jan 2022</span>
-                              </li>
-                              <li class="post-comments">
-                                <a href="#"><i class="uil uil-comment"></i>2</a>
-                              </li>
-                              <li class="post-likes ms-auto">
-                                <a href="#"
-                                  ><i class="uil uil-heart-alt"></i>5</a
-                                >
-                              </li>
-                            </ul>
-                            <!-- /.post-meta -->
-                          </div>
-                          <!-- /.card-footer -->
-                        </div>
-                        <!-- /.card -->
-                      </article>
-                      <!-- /article -->
-                    </div>
-                    <!-- /.item-inner -->
-                  </div>
+                  
                   <!--/.swiper-slide -->
                 </div>
                 <!--/.swiper-wrapper -->
@@ -979,13 +827,7 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit
               </p>
-              <nav class="nav social">
-                <a href="#"><i class="uil uil-twitter"></i></a>
-                <a href="#"><i class="uil uil-facebook-f"></i></a>
-                <a href="#"><i class="uil uil-dribbble"></i></a>
-                <a href="#"><i class="uil uil-instagram"></i></a>
-                <a href="#"><i class="uil uil-youtube"></i></a>
-              </nav>
+             
 
               <!-- /.social -->
             </div>
@@ -994,7 +836,7 @@
           <!-- /column -->
           <div class="col-md-4 col-lg-2 mt-4">
             <div class="widget">
-              <h4 class="widget-title mb-3" style="color: #f99f38;">Product</h4>
+              <h4 class="widget-title mb-3" style="color: #bc263a;">Product</h4>
               <ul class="list-unstyled text-reset mb-0">
                 <li><a href="#">Rasai</a></li>
                 <li><a href="#">Taleem</a></li>
@@ -1006,7 +848,7 @@
           <!-- /column -->
           <div class="col-md-4 col-lg-3 mt-4">
             <div class="widget">
-              <h4 class="widget-title mb-3" style="color: #f99f38;">About</h4>
+              <h4 class="widget-title mb-3" style="color: #bc263a;">About</h4>
               <ul class="list-unstyled text-reset mb-0">
                 <li>
                   <a href="#">We Are KalPay </a>
@@ -1022,7 +864,7 @@
           <!-- /column -->
           <div class="col-md-12 col-lg-3 mt-4">
             <div class="widget">
-              <h4 class="widget-title mb-3" style="color: #f99f38;">
+              <h4 class="widget-title mb-3" style="color: #bc263a;">
                 Social Media
               </h4>
               <ul class="list-unstyled text-reset mb-0">
