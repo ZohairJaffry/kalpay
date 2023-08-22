@@ -18,6 +18,10 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <style>
+    html,body {
+    margin:0;
+    padding:0;
+}
     hr {
       color: #999; /* Line color */
       background-color: #999; /* Fallback color for old browsers */
@@ -72,7 +76,7 @@
             </div>
             <div
               class="navbar-collapse offcanvas offcanvas-nav"
-              style="margin-right: 20%;"
+              style="margin-right: 40%;"
             >
               <div class="offcanvas-header d-lg-none">
                 <h3 class="text-white fs-30 mb-0">KalPay</h3>
@@ -161,38 +165,39 @@
         </nav>
         <!-- /.navbar -->
       </header>
+      
       <!-- /header -->
-      <section class="wrapper">
+      <section class="wrapper container justify-content-lg-start">
         <div
-          class="container pt-10 pt-md-14 pb-14 pb-md-0"
+          class=" row gx-lg-8 gx-xl-0 gy-0 align-items-left "
           style="margin-bottom: 0;"
         >
           
           <!-- /.row -->
-          <div class="position-relative">
-            <div
-              class="shape bg-dot primary rellax w-17 h-21"
-              data-rellax-speed="1"
-              style="top: -2.5rem; right: -2.7rem;"
-            ></div>
+          <div class="position-relative col-lg-12">
+            
             <figure class="rounded ">
               <img
-                src="used/about-new.jpg"
-                srcset="used/about-new.jpg 2x"
+                src="used/abt.png"
+                style="margin-left: 10%!important;margin-top: -5%;"
                 alt=""
-                class="red-framed-image"
+                class="img-fluid ms-auto mx-auto me-lg-8"
               />
             </figure>
             
           </div>
+          
         </div>
         
         <!-- /.container -->
       </section>
-      <section class="wrapper mt-10">
+      <section class="wrapper mt-10" style="background-image: url(used/sectin1background.png);height:360px;">
         <div class="row gx-md-8 gx-lg-12 gy-3 gy-lg-0 mb-40">
           <div class="col-lg-1"></div>
           <div class="col-lg-10">
+            <br>
+            <br>
+            <br>
             <h1 class="display-1 fs-66 lh-xxs mb-0 text-center align-items-center justify-content-center">
               We are <span style="color: #bc263a;">KalPay</span>
             </h1>
@@ -200,8 +205,8 @@
           <div class="col-lg-1"></div>
           <!-- /column -->
           <div class="col-lg-1"></div>
-          <div class="col-lg-10">
-            <small class="lead fs-25 my-3">
+          <div class="col-lg-10 align-items-center text-center justify-content-center" >
+            <p class="lead fs-25 my-3" style="font-size: 14px!important;">
               Co-founded by a team of 2 LUMS Graduates, KalPay has become the
               largest Shariah Aligned buy now pay later fintech startup based
               out of Lahore. KalPay is the easiest, most convenient way to pay
@@ -213,7 +218,7 @@
               Shopping with KalPay is just like shopping with any other credit
               card - only Shariah-compliant and easier. So what are you
               waiting for? Sign up now and start shopping!
-            </small>
+            </p>
           </div>
           <div class="col-lg-1"></div>
           <!-- /column -->
@@ -226,7 +231,7 @@
           <div class="row">
             <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
               <h3 class="display-4 mb-10 px-xl-10">
-                Our <span style="color: #bc263a;"> Values</span>
+                Our Values and Beliefs
               </h3>
             </div>
             <!-- /column -->
@@ -238,15 +243,15 @@
                 <div class="card shadow-lg">
                   <div class="card-body">
                     <img
-                      src="used/Icon1.png"
-                      style="width: 40%; height: 10%;"
+                      src="used/iconb.png"
+                      style="width: 80px; height: 80px;"
                       alt=""
                     />
                     <h4>Inspire Innovation</h4>
                     <p class="mb-2">
                       Our team is constantly working on something new and making
                       it better. We develop great ideas that we hope will shape
-                      the future of e-commerce and financing in Pakistan.
+                      the future of e-commerce and financing in Pakistan.<br></br><br>
                     </p>
                     <!-- <a href="#" class="more hover link-yellow">Learn More</a> -->
                   </div>
@@ -259,8 +264,8 @@
                 <div class="card shadow-lg">
                   <div class="card-body">
                     <img
-                      src="used/Icon2.png"
-                      style="width: 40%; height: 10%;"
+                      src="used/iconc.png"
+                      style="width: 80px; height: 80px;"
                     />
                     <h4>Value Teamwork</h4>
                     <p class="mb-2">
@@ -281,8 +286,8 @@
                 <div class="card shadow-lg">
                   <div class="card-body">
                     <img
-                      src="used/icon3.png"
-                      style="width: 40%; height: 10%;"
+                      src="used/icond.png"
+                      style="width: 80px; height: 80px;"
                       alt=""
                     />
                     <h4>Be Committed</h4>
@@ -307,7 +312,116 @@
         <!-- /.container -->
       </section>
       <!-- /section -->
-
+      <section class="container mb-10">
+        <h2 class="text-center mb-4">Meet the Team</h2>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="align-items-center justify-content-center text-center">
+              <img src="./used/person1.jpg" class="card-img-top" alt="Jordan Merchal">
+              <div class="card-body">
+                <h5 class="card-title">Jordan Merchal</h5>
+                <p class="card-text">Software Engineer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="align-items-center justify-content-center text-center">
+              <img src="./used/person1.jpg" class="card-img-top" alt="Jordan Merchal">
+              <div class="card-body">
+                <h5 class="card-title">Jordan Merchal</h5>
+                <p class="card-text">Software Engineer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="align-items-center justify-content-center text-center">
+              <img src="./used/person1.jpg" class="card-img-top" alt="Jordan Merchal">
+              <div class="card-body">
+                <h5 class="card-title">Jordan Merchal</h5>
+                <p class="card-text">Software Engineer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="align-items-center justify-content-center text-center">
+              <img src="./used/person1.jpg" class="card-img-top" alt="Jordan Merchal">
+              <div class="card-body">
+                <h5 class="card-title">Jordan Merchal</h5>
+                <p class="card-text">Software Engineer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="align-items-center justify-content-center text-center">
+              <img src="./used/person1.jpg" class="card-img-top" alt="Jordan Merchal">
+              <div class="card-body">
+                <h5 class="card-title">Jordan Merchal</h5>
+                <p class="card-text">Software Engineer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="align-items-center justify-content-center text-center">
+              <img src="./used/person1.jpg" class="card-img-top" alt="Jordan Merchal">
+              <div class="card-body">
+                <h5 class="card-title">Jordan Merchal</h5>
+                <p class="card-text">Software Engineer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="align-items-center justify-content-center text-center">
+              <img src="./used/person1.jpg" class="card-img-top" alt="Jordan Merchal">
+              <div class="card-body">
+                <h5 class="card-title">Jordan Merchal</h5>
+                <p class="card-text">Software Engineer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="align-items-center justify-content-center text-center">
+              <img src="./used/person1.jpg" class="card-img-top" alt="Jordan Merchal">
+              <div class="card-body">
+                <h5 class="card-title">Jordan Merchal</h5>
+                <p class="card-text">Software Engineer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="position-relative" style="background-color: #f8f8f8">
+        <div class="row">
+          <div class="col-md-5">
+            <img src="/kalpay/used/footp.png" style="margin-left: -10%;">
+          </div>
+          <div class="col-md-7"> 
+            <br>
+            <br>
+            <h1>Follow us On Social Media</h1> <br>
+            <!--<p>Looking for the lates industry insights  and timely agency updates?<br> Follow us on social:</p> <br>-->
+            <p>Take a look at our product offering and more!</p>
+            <span>
+              
+              <img src="./used/linkedin.png" width="48" height="48">
+              &nbsp;
+            </span>
+            
+            <span>
+              &nbsp;
+              <img src="./used/facebook.png" width="48" height="48">
+              &nbsp;
+            </span>
+            <span>
+              &nbsp;
+              <img src="./used/instagram.png" width="48" height="48">
+              &nbsp;
+            </span>
+            
+          </div>
+        </div>
+      </section>
       <!-- /section -->
     </div>
     <footer
@@ -329,23 +443,17 @@
                 alt=""
               />
               <p style="text-align: justify;">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                Consumer financing made easy! <br>
+                Buy Now Pay Later in easy, interest-free instalments with KalPay!
               </p>
-              <nav class="nav social">
-                <a href="#"><i class="uil uil-twitter"></i></a>
-                <a href="#"><i class="uil uil-facebook-f"></i></a>
-                <a href="#"><i class="uil uil-dribbble"></i></a>
-                <a href="#"><i class="uil uil-instagram"></i></a>
-                <a href="#"><i class="uil uil-youtube"></i></a>
-              </nav>
+              
             </div>
             <!-- /.widget -->
           </div>
           <!-- /column -->
           <div class="col-md-4 col-lg-2 mt-4">
             <div class="widget">
-              <h4 class="widget-title mb-3" style="color: #f99f38;">Product</h4>
+              <h4 class="widget-title mb-3" style="color: #bc263a;">Product</h4>
               <ul class="list-unstyled text-reset mb-0">
                 <li><a href="#">Rasai</a></li>
                 <li><a href="#">Taleem</a></li>
@@ -357,14 +465,16 @@
           <!-- /column -->
           <div class="col-md-4 col-lg-3 mt-4">
             <div class="widget">
-              <h4 class="widget-title mb-3" style="color: #f99f38;">About</h4>
+              <h4 class="widget-title mb-3" style="color: #bc263a;">About</h4>
               <ul class="list-unstyled text-reset mb-0">
                 <li>
                   <a href="#">We Are KalPay </a>
                 </li>
-                <li><a href="#">Publications</a></li>
-                <li><a href="#">Contact Us</a></li>
-
+                
+                <li>
+                  <a href = "mailto: success@kalpayfinancials.com">Contact Us</a>
+                </li>
+                
                 <li><a href="#">Privacy Policy</a></li>
               </ul>
             </div>
@@ -373,7 +483,7 @@
           <!-- /column -->
           <div class="col-md-12 col-lg-3 mt-4">
             <div class="widget">
-              <h4 class="widget-title mb-3" style="color: #f99f38;">
+              <h4 class="widget-title mb-3" style="color: #bc263a;">
                 Social Media
               </h4>
               <ul class="list-unstyled text-reset mb-0">
