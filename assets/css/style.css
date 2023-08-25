@@ -14,7 +14,7 @@ Author:		elemis
   --bs-gray-600: #60697b;
   --bs-gray-700: #2f353a;
   --bs-gray-800: #21262c;
-  --bs-gray-900: #1e2228;
+  --bs-gray-900: #bc263a;
   --bs-blue: #bc263a;
   --bs-sky: #5eb9f0;
   --bs-purple: #747ed1;
@@ -6250,7 +6250,7 @@ fieldset:disabled .btn {
   color: #7e373c;
 }
 .list-group {
-  --bs-list-group-color: #1e2228;
+  --bs-list-group-color: #bc263a;
   --bs-list-group-bg: #fff;
   --bs-list-group-border-color: rgba(0, 0, 0, 0.125);
   --bs-list-group-border-width: 1px;
@@ -7730,7 +7730,7 @@ fieldset:disabled .btn {
   --bs-offcanvas-padding-x: 1.5rem;
   --bs-offcanvas-padding-y: 1.5rem;
   --bs-offcanvas-color: #fff;
-  --bs-offcanvas-bg: #1e2228;
+  --bs-offcanvas-bg: #bc263a;
   --bs-offcanvas-border-width: 0;
   --bs-offcanvas-border-color: transparent;
   --bs-offcanvas-box-shadow: none;
@@ -8268,6 +8268,7 @@ fieldset:disabled .btn {
 .offcanvas.show:not(.hiding),
 .offcanvas.showing {
   transform: none;
+  background-color: #bc263a;
 }
 .offcanvas.hiding,
 .offcanvas.show,
@@ -29901,6 +29902,7 @@ button:focus {
   .navbar-expand-lg .offcanvas-nav.offcanvas-end,
   .navbar-expand-lg .offcanvas-nav.offcanvas-start {
     width: 100%;
+    margin-right: 40%;
   }
   .navbar-expand-lg.extended.navbar-bg-light:not(.fixed),
   .navbar-expand-lg.fancy.navbar-bg-light:not(.fixed) {

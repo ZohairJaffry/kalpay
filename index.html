@@ -1,8 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <style>
-    p,h1,h2,h3,h4,h5,title,body,span,li,ul,a{
-      font-family:Helvetica;
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    title,
+    body,
+    span,
+    li,
+    ul,
+    a {
+      font-family: Helvetica;
     }
   </style>
   <head>
@@ -34,101 +45,111 @@
       onload="this.rel='stylesheet'"
     />
     <style>
-                    .project {
-                  position: relative;
-              }
-
-              .learn-more-link {
-            position: absolute;
-            top: 0;
-            right: 0;
-             color: white;
-            padding: 5px 50px;
-            text-decoration: none;
-
-            z-index: 1;
-
-        }
-        hr {
-          color: #999; /* Line color */
-          background-color: #999; /* Fallback color for old browsers */
-          height: 2px; /* Line height */
-          margin: 0.5rem 0 !important;
-          border: none; /* Remove default border */
+      .project {
+        position: relative;
       }
-              .project:hover .learn-more-link {
-                color: #fff;
-                  display: block; /* Show the link on hover */
-              }
 
-              .learn-more-link i {
-                  margin-left: 5px;
-              }
+      .learn-more-link {
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: white;
+        padding: 5px 50px;
+        text-decoration: none;
 
-              /* Additional styles for the icon */
-              .learn-more-link i {
-                  transition: transform 0.3s;
-              }
+        z-index: 1;
+      }
+      hr {
+        color: #999; /* Line color */
+        background-color: #999; /* Fallback color for old browsers */
+        height: 2px; /* Line height */
+        margin: 0.5rem 0 !important;
+        border: none; /* Remove default border */
+      }
+      .project:hover .learn-more-link {
+        color: #fff;
+        display: block; /* Show the link on hover */
+      }
 
-              .project:hover .learn-more-link i {
-                  transform: translateX(5px);
-              }
+      .learn-more-link i {
+        margin-left: 5px;
+      }
 
-                          .card {
-                            border-radius: 15px;
-                            overflow: hidden;
-                            transition: background-color rgba(0, 0, 0, 0.1);
-                          }
-                          .card {
-                            border-radius: 20px;
-                            
-                            overflow: hidden;
-                            transition: background-color 0.3s ease-in-out;
-                          }
+      /* Additional styles for the icon */
+      .learn-more-link i {
+        transition: transform 0.3s;
+      }
 
-                          /* Add transparency or change background color on hover */
-                          .card:hover {
-                            background-color: #bc263a; /* Change this to the desired color or use rgba for transparency */
-                          }
+      .project:hover .learn-more-link i {
+        transform: translateX(5px);
+      }
 
-                          /* Adjust text and link colors on hover */
-                          .card:hover h4,
-                          .card:hover p {
-                            color: #fff; /* Change this to the desired text color */
-                          }
+      .card {
+        border-radius: 15px;
+        overflow: hidden;
+        transition: background-color rgba(0, 0, 0, 0.1);
+      }
+      .card {
+        border-radius: 20px;
 
-                          .card:hover a {
-                            color: #fff; /* Change this to the desired link color */
-                          }
+        overflow: hidden;
+        transition: background-color 0.3s ease-in-out;
+      }
 
-                          @media (min-width: 660px){
-                    .me-lg-8 {
-                        margin-right: -10rem !important;
-                        margin-top: -10rem !important;
+      /* Add transparency or change background color on hover */
+      .card:hover {
+        background-color: #bc263a; /* Change this to the desired color or use rgba for transparency */
+      }
 
-                    }
-                    .hero-text{
-                        font-size: 70px;
-                    }
-                  }
+      /* Adjust text and link colors on hover */
+      .card:hover h4,
+      .card:hover p {
+        color: #fff; /* Change this to the desired text color */
+      }
+
+      .card:hover a {
+        color: #fff; /* Change this to the desired link color */
+      }
+
+      @media (min-width: 660px) {
+        .me-lg-8 {
+          margin-right: -10rem !important;
+          margin-top: -10rem !important;
+        }
+        .hero-text {
+          font-size: 70px;
+        }
+      }
+      @media (min-width: 1200px) {
+        .heading {
+          padding-left: 39%;
+          text-align: initial;
+        }
+        .sub {
+          text-align: initial;
+          padding-left: 39%;
+        }
+      }
     </style>
   </head>
 
   <body>
     <div class="content-wrapper">
       <header class="wrapper">
-        <!-- /.alert -->
         <nav class="navbar navbar-expand-lg classic transparent navbar-light">
           <div class="container flex-lg-row flex-nowrap align-items-center">
             <div class="navbar-brand w-100">
               <a href="./index.html">
-                <img src="./used/logo.png" srcset="./used/logo.png 2x" alt="" /
-                style="width: 200px;">
+                <img
+                  src="used/logo.png"
+                  srcset="used/logo.png 2x"
+                  alt=""
+                  style="width: 200px;"
+                />
               </a>
             </div>
             <div
-              class="navbar-collapse offcanvas offcanvas-nav"
-              style="margin-right: 40%;"
+              class="navbar-collapse offcanvas offcanvas-nav offcanvas-start"
             >
               <div class="offcanvas-header d-lg-none">
                 <h3 class="text-white fs-30 mb-0">KalPay</h3>
@@ -141,7 +162,7 @@
               </div>
               <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
                 <ul class="navbar-nav">
-                  <li class="nav-item">
+                  <li class="nav-item active">
                     <a class="nav-link" href="index.html">Home</a>
 
                     <!--/.dropdown-menu -->
@@ -192,17 +213,8 @@
               <!-- /.offcanvas-body -->
             </div>
             <!-- /.navbar-collapse -->
-            <div class="navbar-other ms-lg-4" >
+            <div class="navbar-other ms-lg-4">
               <ul class="navbar-nav flex-row align-items-center ms-auto">
-                <li class="nav-item d-none d-md-block " style="display:block;">
-                  <a
-                    href="contact.html"
-                    class="btn btn-sm btn-primary rounded"
-                    style="background-color: #20282b;
-                    display:none;"
-                    >Contact Us</a
-                  >
-                </li>
                 <li class="nav-item d-lg-none">
                   <button class="hamburger offcanvas-nav-btn">
                     <span></span>
@@ -215,6 +227,8 @@
           </div>
           <!-- /.container -->
         </nav>
+        <!-- /.alert -->
+
         <!-- /.navbar -->
       </header>
       <!-- /header -->
@@ -240,7 +254,7 @@
               data-delay="600"
             >
               <h1 class="display-1 mb-5 hero-text" style="margin-top: 10%;">
-                Khareedo <br>Aaj, <span style="color: #bc263a;">Payment</span>
+                Khareedo <br />Aaj, <span style="color: #bc263a;">Payment</span>
                 <span style="color: #bc263a;"> KalPay!</span>
               </h1>
               <p
@@ -290,11 +304,7 @@
           <div class="row gx-lg-8 gx-xl-12 gy-12 align-items-center">
             <div class="col-lg-6 position-relative">
               <figure class="rounded">
-                <img
-                  src="./used/section1.png"
-                  
-                  alt=""
-                />
+                <img src="./used/section1.png" alt="" />
               </figure>
 
               <!--/column -->
@@ -328,12 +338,16 @@
       <!-- /section -->
       <!-- /section -->
       <div class="container">
-          <!-- /.row -->
+        <!-- /.row -->
         <div class="grid grid-view projects-masonry" style="padding: 10%;">
           <div class="row gx-md-8 isotope">
             <div class="project item col-md-6 col-xl-6 product">
               <figure class="lift rounded mb-6">
-                <img src="used/p1.png" alt="" class="background-color:#FEFEFE;"/>
+                <img
+                  src="used/p1.png"
+                  alt=""
+                  class="background-color:#FEFEFE;"
+                />
               </figure>
               <a href="#" class="learn-more-link" style="color: black;">
                 Get Started
@@ -344,7 +358,11 @@
             <!-- /.project -->
             <div class="project item col-md-6 col-xl-6 product">
               <figure class="lift rounded mb-6">
-                <img src="used/p2.png" alt="" class="background-color:#FEFEFE;" />
+                <img
+                  src="used/p2.png"
+                  alt=""
+                  class="background-color:#FEFEFE;"
+                />
               </figure>
               <a href="#" class="learn-more-link" style="color: black;">
                 Get Started
@@ -354,12 +372,13 @@
             <!-- /.project -->
 
             <!-- /.project -->
-            <div
-              class="item col-md-6 col-xl-6"
-              style="top: 350px !important;"
-            >
+            <div class="item col-md-6 col-xl-6" style="top: 350px !important;">
               <figure class="lift rounded mb-6">
-                <img src="used/p3.png" class="background-color:#FEFEFE;" alt="" />
+                <img
+                  src="used/p3.png"
+                  class="background-color:#FEFEFE;"
+                  alt=""
+                />
               </figure>
               <a href="#" class="learn-more-link" style="color: black;">
                 Get Started
@@ -406,7 +425,6 @@
                 <div class="swiper-slide px-5">
                   <img src="./used/l4.png" alt="" />
                 </div>
-                
               </div>
               <!--/.swiper-wrapper -->
             </div>
@@ -415,11 +433,15 @@
           <!-- /.swiper-container -->
         </div>
         <!-- /.container -->
-
-        
       </section>
       <!-- /section -->
-      <section class="wrapper" style="background-image: url(used/half.png);background-repeat: no-repeat;">
+      <section
+        class="wrapper"
+        style="
+          background-image: url(used/half.png);
+          background-repeat: no-repeat;
+        "
+      >
         <div class="container py-14 py-md-16 text-center">
           <div class="row">
             <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
@@ -455,10 +477,7 @@
               <div class="col-md-6 col-xl-4">
                 <div class="card shadow-lg">
                   <div class="card-body">
-                    <img
-                      src="used/Icon.png"
-                      style="width: 40%; height: 10%;"
-                    />
+                    <img src="used/Icon.png" style="width: 40%; height: 10%;" />
                     <h4>Shariah Aligned</h4>
                     <p class="mb-2">
                       We follow the socially responsible Shariah finance laws:
@@ -534,15 +553,17 @@
       </section>
       <!-- /section -->
 
-      
       <!-- /section -->
 
       <!-- /section -->
       <!-- /section -->
-      <section class="wrapper bg-soft" style="background-image: linear-gradient(#f2f2f2 70%, white 30%);">
+      <section
+        class="wrapper bg-soft"
+        style="background-image: linear-gradient(#f2f2f2 70%, white 30%);"
+      >
         <div class="container py-14 py-md-16">
           <h2 class="text-uppercase text-center mb-8">
-            Featured In 
+            Featured In
           </h2>
           <div
             class="swiper-container clients mb-0"
@@ -569,7 +590,6 @@
                 <div class="swiper-slide px-5">
                   <img src="./used/l4.png" alt="" />
                 </div>
-                
               </div>
               <!--/.swiper-wrapper -->
             </div>
@@ -581,22 +601,22 @@
           <div class="row">
             <div class="col-xl-12 mx-auto">
               <div
-                class="card image-wrapper bg-full bg-image "
+                class="card image-wrapper bg-full bg-image"
                 data-image-src="used/cta.png"
               >
                 <div
                   class="card-body p-6 p-md-11 flex-row align-items-lg-center justify-content-md-right text-center"
                 >
-                  <h3
-                    class="display-2 text-white"
-                    style="padding-left: 39%; text-align: initial;"
-                  >
+                  <h3 class="display-2 text-white heading">
                     Become a part of our affiliate network
                   </h3>
-                  <p
-                    style="text-align: initial; padding-left: 39%; color: #fff;"
-                  >
-                    Join our dynamic network and embark on a journey towards growth, innovation, and impact. Together, we hope to leverage each other's strengths to unlock new opportunities and drive collective success. As a valued partner, you get a chance to showcase your offerings to a broader audience, facilitating business growth and diversification.
+                  <p class="sub" style="color: #fff; text-align: left;">
+                    Join our dynamic network and embark on a journey towards
+                    growth, innovation, and impact. Together, we hope to
+                    leverage each other's strengths to unlock new opportunities
+                    and drive collective success. As a valued partner, you get a
+                    chance to showcase your offerings to a broader audience,
+                    facilitating business growth and diversification.
                   </p>
                   <a
                     href="#"
@@ -616,19 +636,18 @@
         <!-- /.container -->
       </section>
       <!-- /section -->
-      <section class="wrapper bg-soft" >
+      <section class="wrapper bg-soft">
         <div class="container py-14 py-md-16">
           <div class="row">
             <div class="col-lg-9 col-xl-8 col-xxl-7 mx-auto">
-              <h1 class="text-center justify-content-center mb-5 hero-text">
+              <h2 class="text-uppercase text-center mb-8">
                 Publications
-              </h1>
+              </h2>
             </div>
             <!-- /column -->
           </div>
           <!-- /.row -->
           <div class="position-relative">
-            
             <div
               class="swiper-container dots-closer blog grid-view mb-6"
               data-margin="0"
@@ -647,7 +666,10 @@
                             class="card-img-top overlay overlay-1 hover-scale"
                           >
                             <a href="#">
-                              <img src="./used/image6.png" style="border-radius: 20px;" alt=""
+                              <img
+                                src="./used/image6.png"
+                                style="border-radius: 20px;"
+                                alt=""
                             /></a>
                             <figcaption>
                               <h5 class="from-top mb-0">Read More</h5>
@@ -655,33 +677,31 @@
                           </figure>
                           <div class="card-body">
                             <div class="post-header">
-                              
                               <!-- /.post-category -->
                               <h2 class="post-title h3 mt-1 mb-3">
                                 <a class="link-dark" href="./blog-post.html"
-                                  >Digital Payment will be top Payment in Next 10 Years</a
+                                  >Digital Payment will be top Payment in Next
+                                  10 Years</a
                                 >
                               </h2>
                             </div>
                             <!-- /.post-header -->
                             <div class="post-content">
-                              <p>14 Feb - Technology </p>
+                              <p>14 Feb - Technology</p>
                               <p>
                                 Mauris convallis non ligula non interdum.
                                 Gravida vulputate convallis tempus vestibulum
                                 cras imperdiet nun eu dolor.
                               </p>
                             </div>
-                            <div class="post-category ">
-                              <a href="#" class="hover" 
-                                >Explore More ></a
-                              >
+                            <div class="post-category">
+                              <a href="#" class="hover">Explore More ></a>
                             </div>
                             <!-- /.post-content -->
                           </div>
-                          
+
                           <!--/.card-body -->
-                         
+
                           <!-- /.card-footer -->
                         </div>
                         <!-- /.card -->
@@ -699,7 +719,10 @@
                             class="card-img-top overlay overlay-1 hover-scale"
                           >
                             <a href="#">
-                              <img src="./used/image7.png" style="border-radius: 20px;" alt=""
+                              <img
+                                src="./used/image7.png"
+                                style="border-radius: 20px;"
+                                alt=""
                             /></a>
                             <figcaption>
                               <h5 class="from-top mb-0">Read More</h5>
@@ -707,33 +730,31 @@
                           </figure>
                           <div class="card-body">
                             <div class="post-header">
-                              
                               <!-- /.post-category -->
                               <h2 class="post-title h3 mt-1 mb-3">
                                 <a class="link-dark" href="./blog-post.html"
-                                  >Digital Payment will be top Payment in Next 10 Years</a
+                                  >Digital Payment will be top Payment in Next
+                                  10 Years</a
                                 >
                               </h2>
                             </div>
                             <!-- /.post-header -->
                             <div class="post-content">
-                              <p>14 Feb - Technology </p>
+                              <p>14 Feb - Technology</p>
                               <p>
                                 Mauris convallis non ligula non interdum.
                                 Gravida vulputate convallis tempus vestibulum
                                 cras imperdiet nun eu dolor.
                               </p>
                             </div>
-                            <div class="post-category ">
-                              <a href="#" class="hover" 
-                                >Explore More ></a
-                              >
+                            <div class="post-category">
+                              <a href="#" class="hover">Explore More ></a>
                             </div>
                             <!-- /.post-content -->
                           </div>
-                          
+
                           <!--/.card-body -->
-                         
+
                           <!-- /.card-footer -->
                         </div>
                         <!-- /.card -->
@@ -751,7 +772,10 @@
                             class="card-img-top overlay overlay-1 hover-scale"
                           >
                             <a href="#">
-                              <img src="./used/image8.png" style="border-radius: 20px;" alt=""
+                              <img
+                                src="./used/image8.png"
+                                style="border-radius: 20px;"
+                                alt=""
                             /></a>
                             <figcaption>
                               <h5 class="from-top mb-0">Read More</h5>
@@ -759,33 +783,31 @@
                           </figure>
                           <div class="card-body">
                             <div class="post-header">
-                              
                               <!-- /.post-category -->
                               <h2 class="post-title h3 mt-1 mb-3">
                                 <a class="link-dark" href="./blog-post.html"
-                                  >Digital Payment will be top Payment in Next 10 Years</a
+                                  >Digital Payment will be top Payment in Next
+                                  10 Years</a
                                 >
                               </h2>
                             </div>
                             <!-- /.post-header -->
                             <div class="post-content">
-                              <p>14 Feb - Technology </p>
+                              <p>14 Feb - Technology</p>
                               <p>
                                 Mauris convallis non ligula non interdum.
                                 Gravida vulputate convallis tempus vestibulum
                                 cras imperdiet nun eu dolor.
                               </p>
                             </div>
-                            <div class="post-category ">
-                              <a href="#" class="hover" 
-                                >Explore More ></a
-                              >
+                            <div class="post-category">
+                              <a href="#" class="hover">Explore More ></a>
                             </div>
                             <!-- /.post-content -->
                           </div>
-                          
+
                           <!--/.card-body -->
-                         
+
                           <!-- /.card-footer -->
                         </div>
                         <!-- /.card -->
@@ -795,7 +817,7 @@
                     <!-- /.item-inner -->
                   </div>
                   <!--/.swiper-slide -->
-                  
+
                   <!--/.swiper-slide -->
                 </div>
                 <!--/.swiper-wrapper -->
@@ -817,10 +839,7 @@
       style="background-image: url(used/sectin1background.png);"
     >
       <div class="container py-13 py-md-5">
-        <div
-          class="row gy-6 gy-lg-0"
-          style="--bs-gutter-x: 10.5rem !important;"
-        >
+        <div class="row gy-6 gy-lg-0">
           <div class="col-md-4 col-lg-4">
             <div class="widget">
               <img
@@ -831,10 +850,10 @@
                 alt=""
               />
               <p style="text-align: justify;">
-                Consumer financing made easy! <br>
-                Buy Now Pay Later in easy, interest-free instalments with KalPay!
+                Consumer financing made easy! <br />
+                Buy Now Pay Later in easy, interest-free instalments with
+                KalPay!
               </p>
-             
 
               <!-- /.social -->
             </div>
@@ -860,9 +879,9 @@
                 <li>
                   <a href="#">We Are KalPay </a>
                 </li>
-                
+
                 <li>
-                  <a href = "mailto: success@kalpayfinancials.com">Contact Us</a>
+                  <a href="mailto: success@kalpayfinancials.com">Contact Us</a>
                 </li>
 
                 <li>
